@@ -12,6 +12,7 @@
 		8E47628B1E13CD6D00E0FADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4762891E13CD6D00E0FADA /* Main.storyboard */; };
 		8E47628D1E13CD6E00E0FADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E47628C1E13CD6E00E0FADA /* Assets.xcassets */; };
 		8E4762901E13CD6E00E0FADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E47628E1E13CD6E00E0FADA /* LaunchScreen.storyboard */; };
+		8E4762981E13D03600E0FADA /* PC290091.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8E4762971E13D03600E0FADA /* PC290091.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8E47628C1E13CD6E00E0FADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E47628F1E13CD6E00E0FADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E4762911E13CD6E00E0FADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4762971E13D03600E0FADA /* PC290091.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PC290091.JPG; path = ../../../Desktop/PC290091.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8E4762841E13CD6D00E0FADA /* Photo Filter */ = {
 			isa = PBXGroup;
 			children = (
+				8E4762971E13D03600E0FADA /* PC290091.JPG */,
 				8E4762851E13CD6D00E0FADA /* AppDelegate.swift */,
 				8E4762871E13CD6D00E0FADA /* ViewController.swift */,
 				8E4762891E13CD6D00E0FADA /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					8E4762811E13CD6D00E0FADA = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3KXG3NAG38;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +130,7 @@
 				8E4762901E13CD6E00E0FADA /* LaunchScreen.storyboard in Resources */,
 				8E47628D1E13CD6E00E0FADA /* Assets.xcassets in Resources */,
 				8E47628B1E13CD6D00E0FADA /* Main.storyboard in Resources */,
+				8E4762981E13D03600E0FADA /* PC290091.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3KXG3NAG38;
 				INFOPLIST_FILE = "Photo Filter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YachtTechie.Photo-Filter";
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3KXG3NAG38;
 				INFOPLIST_FILE = "Photo Filter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YachtTechie.Photo-Filter";
